@@ -1,0 +1,21 @@
+<?php if (!defined('THINK_PATH')) exit();?>﻿<style>
+    .info{
+        margin: 15px auto;
+    }
+    .info tr{
+        line-height: 35px;
+    }
+    .info tr td:nth-child(2){
+        text-align:left;
+        width:70%;
+    }
+</style>
+<div style="width:850px;height:70%;padding:10px;margin:20px auto;">
+    <div class="easyui-panel" style="height:340px;" title="餐厅信息">
+        <table class="info">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;随着中国餐饮业的蓬勃发展，越来越多的餐饮企业使用信息技术来提高自身的管理水平，把中国的传统饮食与现代信息化管理有机地结合在一起，
+                为企业的做大、做强、管理规范化起到至关重要作用，餐饮企业的管理目的是成本控制、运营控制，其最终结果表现为效率和效益。
+                而要达到这一目的，管理数据的及时性、准确性、完整性、有效性是至关重要的，而这些特性恰恰是信息系统的最重要的特点。</p>
+        </table>
+    </div>
+</div>

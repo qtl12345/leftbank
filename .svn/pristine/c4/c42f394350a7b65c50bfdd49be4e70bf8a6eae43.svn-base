@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>DeathGhost-用户中心</title>
+        <meta name="keywords" content="DeathGhost,DeathGhost.cn,web前端设,移动WebApp开发" />
+        <meta name="description" content="DeathGhost.cn::H5 WEB前端设计开发!" />
+        <meta name="author" content="DeathGhost"/>
+        <style>
+            .button {
+                background-color: #4CAF50;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            /*.pages{float: right}*/
+            .pages a,.pages span {
+                display:inline-block;
+                padding:2px 10px;
+                border:1px solid #f0f0f0;
+                -webkit-border-radius:3px;
+                -moz-border-radius:3px;
+                border-radius:3px;
+                font-size: 15px;
+            }
+            .pages a,.pages li {
+                display:inline-block;
+                list-style: none;
+                text-decoration:none; color:#58A0D3;
+            }
+            .pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+                margin:0 auto;
+            }
+            .pages a:hover{
+                border-color:#50A8E6;
+            }
+            .pages span.current{
+                background:#50A8E6;
+                color:#FFF;
+                font-weight:700;
+                border-color:#50A8E6;
+            }
+            .pages a,.pages li {
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <include file="./Application/Home/View/public/head.html"/>
+            <nav class="menu_bg">
+                <ul class="menu">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="list.html">订餐</a></li>
+                    <li><a href="category.html">积分商城</a></li>
+                    <li><a href="article_read.html">关于我们</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Start content-->
+        <section class="Psection MT20">
+            <nav class="U-nav Font14 FontW">
+                <ul>
+                    <li><i></i><a href="__MODULE__/system">用户中心首页</a></li>
+                    <li><i></i><a href="__MODULE__/system/user_orderlist">我的订单</a></li>
+                    <li><i></i><a href="__MODULE__/system/user_message">我的留言</a></li>
+                    <!--<li><i></i><a href="user_coupon.html">我的优惠券</a></li>-->
+                    <!--<li><i></i><a href="user_favorites.html">我的收藏</a></li>-->
+                    <li><i></i><a href="__MODULE__/system/user_account">账户管理</a></li>
+                    <li><i></i><a href="{:U('Index/exits','','')}">安全退出</a></li>
+                </ul>
+            </nav>
+            <article class="U-article Overflow">
+                <!--user message-->
+                <section class="Mymessage Overflow">
+                    <span class="Mmtitle Block Font14 FontW Lineheight35">我的留言</span>
+                    <textarea id="leavee"style="height: 50px;width: 900px"></textarea>
+                    <button type="button" style="background-color: #4CAF50; /* Green */
+                            border: none;
+                            color: white;
+                            /*padding: 5px 7px;*/
+                            text-align: center;
+                            text-decoration: none;
+                            display: inline-block;
+                            font-size: 13px;"onclick="leave()">提交</button>
+                    <volist name="message" id="vo">
+                        <p class="FontW"><time>{$vo.leavedata}</time><span>{$vo.content}</span><input type="hidden" name="hidden{$vo.id}" value="{$vo.id}"><button type="button"onclick="dmessage('hidden{$vo.id}')"style="background-color: #4CAF50; /* Green */
+                                border: none;
+                                color: white;
+                                padding: 3px 5px;
+                                text-align: center;
+                                text-decoration: none;
+                                display: inline-block;
+                                margin-left: 20px;
+                                                                                                                                                                           font-size: 10px;">删除</button></p>
+                    </volist>
+                    <div class="TurnPage">
+                        <tfoot>
+                            <!--分页显示？-->
+                            <tr>
+                                <td textalign="center" cl nowrap="true" colspan="9" height="20">
+                                    <div class="pages">{$page}</div>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </div>
+                </section>
+            </article>
+        </section>
+        <script>
+            function leave() {
+                leave = $("#leavee").val();
+                if (leave == '') {
+                    alert("留言内容不能为空");
+                    return;
+                }
+                $.ajax({
+                    url: "{:U('system/userleave','','')}",
+                    data: {"leave": leave},
+                    type: 'post',
+                    datatype: 'json',
+                    success: function (data) {
+                        alert(data);
+                        $("#leavee").val('');
+                        location.reload();
+                    }
+                });
+            }
+            function dmessage(hiddenid) {
+                id = $("input[name=" + hiddenid + "]").val();
+                $.ajax({
+                    url: "{:U('system/dmessage','','')}",
+                    data: {"id": id},
+                    type: 'post',
+                    datatype: 'json',
+                    success: function (data) {
+                        alert(data);
+                        location.reload();
+                    }
+                });
+            }
+        </script>
+    <include file="./Application/Home/View/public/foot.html"/>
+</body>
+</html>

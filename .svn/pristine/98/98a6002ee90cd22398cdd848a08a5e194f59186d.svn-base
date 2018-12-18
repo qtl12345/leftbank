@@ -1,0 +1,78 @@
+
+<link href="__PUBLIC__/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/jqpublic.js"></script>
+
+<section class="Topmenubg">
+    <div class="Topnav">
+        <div class="LeftNav">
+            <if condition="$Think.session.username eq null ">
+                <a href="__MODULE__/Login/register">注册</a>/<a href="__MODULE__/Login/index">登录</a>
+                <else /> 
+                欢迎您：<span style='color:red'>{$Think.session.username}</span>
+            </if>
+            <a href="#">QQ客服</a>
+            <a href="#">微信客服</a>
+            <if condition="$Think.session.username eq null ">
+                <else /> 
+                <a href="{:U('Index/exits','','')}">退出登录</a>
+            </if>
+            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=302795298&site=qq&menu=yes"><img magin-top="10px" border="0" src="http://wpa.qq.com/pa?p=2:302795298:51" alt="联系商家" title="联系商家"/></a>
+        </div>
+        <div class="RightNav">
+            <a href="__MODULE__/Index/index.html">首页</a>
+            <a href="__MODULE__/system/index.html">用户中心</a> <a href="__MODULE__/System/user_orderlist" target="_blank" title="我的订单">我的订单</a> <a href="__MODULE__/System/cart">购物车</a> <a href="user_favorites.html" target="_blank" title="我的收藏">我的收藏</a> 
+        </div>
+    </div>
+</section>
+<div class="Logo_search">
+    <div class="Logo">
+        <img src="__PUBLIC__/images/logo.jpg" title="DeathGhost" alt="模板">
+        <i></i>
+
+    </div>
+    <div class="Search"> 
+        <form method="get" id="main_a_serach" onsubmit="return check_search(this)">
+            <div class="Search_nav" id="selectsearch">
+
+                <a href="javascript:;" onClick="selectsearch(this, 'food_name')">食物名</a>
+            </div>
+            <div class="Search_area"> 
+                <input type="search" id="foodname" name="keyword" placeholder="请输入您所需查找的餐食物名称..." class="searchbox" />
+                <input type="button" onclick="searchfood(7)"class="searchbutton" value="搜 索" />
+            </div>
+        </form>
+        <p class="hotkeywords">
+            <a href=""id="foodname1"onclick='searchfood(1)'>小炒肉</a>
+            <a href="" id="foodname2"onclick='searchfood(2)'>竹笋肉丝</a>
+            <a href="" id="foodname3"onclick='searchfood(3)'>蛋炒饭</a>
+            <a href="" id="foodname4"onclick='searchfood(4)'>牛肉炒饭</a>
+            <a href="" id="foodname5"onclick='searchfood(5)'>干锅鱿鱼</a>
+            <a href="" id="foodname6"onclick='searchfood(6)'>糖醋里脊</a>
+        </p>
+    </div>
+    <script>
+        function searchfood(ss) {
+            if (ss == 7) {
+                box = $("#foodname").val();
+            } else {
+                foodname = document.getElementById("foodname" + ss + "");
+                box = foodname.innerText;
+            }
+            $.ajax({
+                url: "{:U('Index/searchfood','','')}",
+                data: {"foodname": box},
+                type: "post",
+                dataType: "json",
+                success: function (data) {
+                    if (data == 'no') {
+                        window.location.href = "{:U('Index/index','','')}";
+                    } else {
+                        window.location.href = "__MODULE__ /Index/detailsp?foodname=" + data + "";
+                    }
+                }
+            });
+        }
+    </script>
+</div>

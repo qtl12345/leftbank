@@ -1,0 +1,706 @@
+[ 2018-11-05T08:20:40+08:00 ] 127.0.0.1 /zuoan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001217s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004143s ]
+
+[ 2018-11-05T08:21:10+08:00 ] 127.0.0.1 /zuoan/index.php?/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000203s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000455s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001416s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002658s ]
+
+[ 2018-11-05T08:21:23+08:00 ] 127.0.0.1 /zuoan/index.php/System/user_orderlist/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000158s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Home\Controller\SystemController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000421s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001235s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\5b6adcb62ad2b5dfc2abc2cd5e11dc99.php 第 32 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\5b6adcb62ad2b5dfc2abc2cd5e11dc99.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000930s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001719s ]
+
+[ 2018-11-05T08:21:23+08:00 ] 127.0.0.1 /zuoan/index.php/Home/Login/captchaImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000177s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001925s ]
+
+[ 2018-11-05T08:21:30+08:00 ] 127.0.0.1 /zuoan/index.php/Adminl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+ERR: 无法加载控制器:Adminl
+
+[ 2018-11-05T08:21:33+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000303s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002577s ]
+
+[ 2018-11-05T08:23:05+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000300s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002236s ]
+
+[ 2018-11-05T08:23:30+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000263s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002991s ]
+
+[ 2018-11-05T08:26:05+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000275s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002188s ]
+
+[ 2018-11-05T08:26:06+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001667s ]
+
+[ 2018-11-05T08:28:32+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001491s ]
+
+[ 2018-11-05T08:31:31+08:00 ] ::1 /zuoan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000303s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003212s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001232s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003477s ]
+
+[ 2018-11-05T08:31:43+08:00 ] ::1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002900s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006658s ]
+
+[ 2018-11-05T08:33:05+08:00 ] 127.0.0.1 /zuoan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000227s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002788s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000433s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001236s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003169s ]
+
+[ 2018-11-05T08:33:15+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000276s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004767s ]
+
+[ 2018-11-05T08:36:17+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002316s ]
+
+[ 2018-11-05T08:37:53+08:00 ] 127.0.0.1 /zuoan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000646s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002337s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003732s ]
+
+[ 2018-11-05T08:38:04+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000471s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002452s ]
+
+[ 2018-11-05T08:42:31+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000433s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003308s ]
+
+[ 2018-11-05T08:42:41+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+
+[ 2018-11-05T08:43:32+08:00 ] 127.0.0.1 /zuoan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000181s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000738s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001738s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.035575s ]
+
+[ 2018-11-05T08:43:49+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+
+[ 2018-11-05T08:44:03+08:00 ] 127.0.0.1 /zuoan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000252s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003632s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003041s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003855s ]
+
+[ 2018-11-05T08:49:31+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+
+[ 2018-11-05T08:54:49+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000250s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001625s ]
+
+[ 2018-11-05T08:55:26+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000180s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002414s ]
+
+[ 2018-11-05T08:55:26+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002635s ]
+
+[ 2018-11-05T08:56:14+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000201s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+
+[ 2018-11-05T08:58:30+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002096s ]
+
+[ 2018-11-05T11:30:12+08:00 ] 127.0.0.1 /zuoan/Public/img/Starry.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000502s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002905s ]
+
+[ 2018-11-05T11:30:17+08:00 ] 127.0.0.1 /zuoan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000349s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004618s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000451s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001599s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 29 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003084s ]
+
+[ 2018-11-05T11:30:39+08:00 ] 127.0.0.1 /zuoan/index.php/Home/system/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000384s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000445s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001419s ]
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\c113145837b920e81cff5792739e85ae.php 第 29 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\c113145837b920e81cff5792739e85ae.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026423s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001834s ]
+
+[ 2018-11-05T11:30:40+08:00 ] 127.0.0.1 /zuoan/index.php/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002906s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000785s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002395s ]
+NOTIC: [8] Undefined variable: erromassgin D:\php\zuoan\Application\Runtime\Cache\Home\5b6adcb62ad2b5dfc2abc2cd5e11dc99.php 第 14 行.
+NOTIC: [8] Undefined variable: erromassgin D:\php\zuoan\Application\Runtime\Cache\Home\5b6adcb62ad2b5dfc2abc2cd5e11dc99.php 第 16 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\5b6adcb62ad2b5dfc2abc2cd5e11dc99.php 第 32 行.
+NOTIC: [8] Undefined index: username D:\php\zuoan\Application\Runtime\Cache\Home\5b6adcb62ad2b5dfc2abc2cd5e11dc99.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2018-11-05T11:30:40+08:00 ] 127.0.0.1 /zuoan/index.php/Home/Login/captchaImg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000390s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006410s ]
+
+[ 2018-11-05T11:30:59+08:00 ] 127.0.0.1 /zuoan/index.php/Login/dologin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000233s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-11-05T11:31:00+08:00 ] 127.0.0.1 /zuoan/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001206s ]
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002918s ]
+
+[ 2018-11-05T11:32:30+08:00 ] 127.0.0.1 /zuoan/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000160s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002859s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000473s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001561s ]
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001799s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003815s ]
+
+[ 2018-11-05T11:34:38+08:00 ] 127.0.0.1 /zuoan/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000488s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001286s ]
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002744s ]
+
+[ 2018-11-05T11:42:59+08:00 ] 127.0.0.1 /zuoan/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000193s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `foodname`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001299s ]
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+NOTIC: [8] Undefined index: f_name D:\php\zuoan\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003129s ]
+

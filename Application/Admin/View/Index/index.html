@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台管理</title>
+
+
+<include file="./Application/Admin/View/Public/public.html"/>
+</head>
+<body class="easyui-layout">
+	<!-- begin of header -->
+	<div class="wu-header" data-options="region:'north',border:false,split:true">
+    	<div class="wu-header-left">
+        	<h1>后台管理</h1>
+        </div>
+        <div class="wu-header-right">
+            <p><strong class="easyui-tooltip" title="">{$Think.session.user}</strong>，欢迎您！</php>
+            <a href="{:U('Index/tuichu','','')}">安全退出</a>
+            <a href="http://127.0.0.1/zuoan">返回首页</a></p>
+            <a id="nowTime"></a>
+        </div>
+
+    </div>
+    <!-- end of header -->
+    <!-- begin of sidebar -->
+	<div class="wu-sidebar" data-options="region:'west',split:true,border:true,title:'导航菜单'"> 
+    	<div class="easyui-accordion" data-options="border:false,fit:true"> 
+        	<div title="管理菜单" data-options="iconCls:'icon-application-cascade'" style="padding:5px;">
+    			<ul class="easyui-tree wu-side-tree">
+                    <li iconCls="icon-users"><a onclick="addTab('类别管理','http://127.0.0.1/zuoan/index.php/Admin/Sort/sort')" data-icon="icon-users">类别管理</a></li>
+                    <li iconCls="icon-users"><a onclick="addTab('菜名管理','http://127.0.0.1/zuoan/index.php/Admin/Dishes/dishes')" data-icon="icon-users">菜名管理</a></li>
+                    <li iconCls="icon-users"><a onclick="addTab('座位管理','http://127.0.0.1/zuoan/index.php/Admin/Seat/seat')" data-icon="icon-users">座位管理</a></li>
+                    <li iconCls="icon-users"><a onclick="addTab('订单管理','http://127.0.0.1/zuoan/index.php/Admin/Order/order')" data-icon="icon-users">订单管理</a></li>
+                </ul>
+            </div>
+            <div title="用户管理" data-options="iconCls:'icon-application-cascade'" style="padding:5px;">
+                <ul class="easyui-tree wu-side-tree">
+                    <li iconCls="icon-users"><a onclick="addTab('信息管理','http://127.0.0.1/zuoan/index.php/Admin/User/user')" data-icon="icon-users">信息管理</a></li>
+                </ul>
+                <ul class="easyui-tree wu-side-tree">
+                    <li iconCls="icon-users"><a onclick="addTab('留言管理','http://127.0.0.1/zuoan/index.php/Admin/Message/message')" data-icon="icon-users">留言管理</a></li>
+                </ul>
+            </div>
+            <div title="商家管理" data-options="iconCls:'icon-application-cascade'" style="padding:5px;">
+                <ul class="easyui-tree wu-side-tree">
+                    <li iconCls="icon-users"><a onclick="addTab('商家信息','http://127.0.0.1/zuoan/index.php/Admin/Merchants/merchants')" data-icon="icon-users">信息管理</a></li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>	
+    <!-- end of sidebar -->    
+    <!-- begin of main -->
+    <div class="wu-main" data-options="region:'center'">
+        <div class="easyui-tabs" data-options="border:false,fit:true" id="tt" >
+            <div data-options="href:'{:U('Admin/Index/info','','')}',closable:false,iconCls:'icon-tip',cls:'pd3'" title="餐厅介绍">
+            </div>
+        </div>
+
+    </div>
+    <!-- end of main --> 
+    <!-- begin of footer -->
+	<div class="wu-footer" data-options="region:'south',border:true,split:true">
+    	&copy; 2018 团队合作
+    </div>
+    <!-- end of footer -->  
+    <script type="text/javascript">
+
+        function addTab(title, url) {
+            if ($('#tt').tabs('exists', title)) {
+                $('#tt').tabs('select', title);
+            } else {
+                var content = '<iframe scrolling="auto" frameborder="0"  src="' + url + '" style="width:100%;height:100%;"></iframe>';
+                $('#tt').tabs('add', {
+                    title: title,
+                    content: content,
+                    closable: true
+                });
+            }
+        }
+        function showTime() {
+            nowtime = new Date();
+            year = nowtime.getFullYear();
+            month = nowtime.getMonth() + 1;
+            date = nowtime.getDate();
+            document.getElementById("nowTime").innerText = year + "年" + month + "月" + date + "日 " + nowtime.toLocaleTimeString();
+        }
+        setInterval("showTime()", 1000);
+
+	</script>
+</body>
+</html>

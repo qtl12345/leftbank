@@ -1,0 +1,105 @@
+<?php
+
+namespace Home\Controller;
+
+use Think\Controller;
+
+class SystemController extends Controller {
+
+    public function index() {
+        if ($_SESSION['username'] == null) {
+            $this->assign("erromassgin", "请先登录");
+            $this->display('Login/index');
+        }else{
+        $username = session('username');
+        $this->assign("username", $username);
+        $this->display();
+        }
+    }
+
+    //购物车
+    public function cart() {
+        if ($_SESSION['username'] == null) {
+            $this->assign("erromassgin", "请先登录");
+            $this->display('Login/index');
+        }else{
+        $user_id = session('id');
+        $shopdata = M('shopping')->where("user_id='1'")->select();
+        $this->assign('shopdata', $shopdata);
+        $this->display();
+        }
+    }
+
+//购物车删除操作
+    public function cdelete() {
+        $name = $_POST['name'];
+        $data = '';
+        $a = M('shopping')->where("sc_foodname='$name'")->delete();
+        if ($a) {
+            $data = 1;
+        } else {
+            $data = 2;
+        }
+        $this->ajaxReturn($data);
+    }
+
+    //查询座位
+    public function getseatlist() {
+
+        $seatlist = M("seat");
+        $data = $seatlist->where("state=1")->select();
+        $this->ajaxReturn($data);
+    }
+
+    //设置座位状态
+    public function setseat() {
+        $id = $_POST['state'];
+        $seat = M("seat");
+        $seat->where("id='$id'")->setField("state", '0');
+    }
+
+    public function user_message() {
+        $this->display();
+    }
+
+    //查询订单
+    public function user_orderlist() {
+        if ($_SESSION['username'] == null) {
+            $this->assign("erromassgin", "请先登录");
+            $this->display('Login/index');
+        }else{
+        $username = $_SESSION['username'];
+        $User = M('order');
+        $list = $User->where("order_userid='$username'")->select();
+        foreach ($list as $k => $v) {
+            if ($list[$k]['order_state'] == 1) {
+                $list[$k]['order_state'] = '已付款';
+            } else {
+                $list[$k]['order_state'] = '未知';
+            }
+        }
+
+        $this->assign('list', $list);
+        $this->display();
+        }
+        
+    }
+
+//结算页面
+    public function confirm_order() {
+        //var_dump($_POST);
+
+        $user_id = session('id');
+
+        $where["user_id"] = $user_id;
+
+
+        $shopdata = M('shopping')->where($where)->select();
+
+        $this->assign('shopdata', $shopdata);
+        $this->display();
+    }
+
+}
+
+?>

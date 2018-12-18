@@ -1,0 +1,386 @@
+[ 2018-11-13T08:08:58+08:00 ] 127.0.0.1 /zuoan/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002907s ]
+
+[ 2018-11-13T08:08:58+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Index/info?_=1542067738887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000238s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000909s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004521s ]
+
+[ 2018-11-13T08:11:22+08:00 ] 127.0.0.1 /zuoan/index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000557s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003240s ]
+
+[ 2018-11-13T10:25:54+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Login/landing
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000266s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004999s ]
+SQL: SHOW COLUMNS FROM `merchants` [ RunTime:0.0087s ]
+SQL: SELECT `id` FROM `merchants` WHERE ( password ='admin' and head ='admin' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-13T10:25:57+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005955s ]
+
+[ 2018-11-13T10:25:57+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Index/info?_=1542075957622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000301s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002936s ]
+
+[ 2018-11-13T10:26:09+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Sort/sort
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000268s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000411s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004022s ]
+
+[ 2018-11-13T10:26:09+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Sort/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002531s ]
+NOTIC: [8] Undefined index: datatype D:\php\zuoan\Application\Admin\Controller\SortController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `foodsort` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `foodsort` ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-13T10:26:14+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Dishes/dishes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001576s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003265s ]
+
+[ 2018-11-13T10:26:14+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Dishes/selectLB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000153s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+NOTIC: [8] Undefined index: datatype D:\php\zuoan\Application\Admin\Controller\DishesController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `foodsort` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `foodsort`  [ RunTime:0.0005s ]
+
+[ 2018-11-13T10:26:14+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Dishes/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000286s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003368s ]
+SQL: SHOW COLUMNS FROM `foodname` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `foodname` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `foodname` ORDER BY id asc LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2018-11-13T10:26:23+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Seat/seat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000154s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001976s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005016s ]
+
+[ 2018-11-13T10:26:24+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Seat/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000168s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `seat` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `seat` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `seat` ORDER BY id asc LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-13T10:26:51+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Seat/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000157s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `seat` [ RunTime:0.0052s ]
+SQL: SELECT `id` FROM `seat`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat` [ RunTime:0.0054s ]
+SQL: UPDATE `seat` SET `id`='10',`state`='1' WHERE ( id='10' ) [ RunTime:0.0075s ]
+
+[ 2018-11-13T10:26:52+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Seat/seat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000176s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000908s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002013s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003567s ]
+
+[ 2018-11-13T10:26:53+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Seat/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000166s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002912s ]
+SQL: SHOW COLUMNS FROM `seat` [ RunTime:0.0064s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `seat` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `seat` ORDER BY id asc LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2018-11-13T10:26:57+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Order/order
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000264s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000371s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018451s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001689s ]
+
+[ 2018-11-13T10:26:57+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Order/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000341s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002279s ]
+NOTIC: [8] Undefined index: datatype D:\php\zuoan\Application\Admin\Controller\OrderController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `order` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order` ORDER BY order_id asc LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-13T10:27:05+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/User/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000267s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2018-11-13T10:27:05+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/User/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000364s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001808s ]
+NOTIC: [8] Undefined index: datatype D:\php\zuoan\Application\Admin\Controller\UserController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2018-11-13T10:27:25+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Message/message
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000234s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001862s ]
+
+[ 2018-11-13T10:27:25+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Message/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000333s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `leave` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `leave` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `leave` ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT `username` FROM `user` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-11-13T10:27:34+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Merchants/merchants
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001770s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001695s ]
+
+[ 2018-11-13T10:27:34+08:00 ] 127.0.0.1 /zuoan/index.php/Admin/Merchants/select
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000240s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003190s ]
+SQL: SHOW COLUMNS FROM `merchants` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `merchants` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `merchants` ORDER BY id asc LIMIT 0,10   [ RunTime:0.0005s ]
+

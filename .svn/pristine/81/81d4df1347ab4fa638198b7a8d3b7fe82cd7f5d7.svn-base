@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>确认订单-DeathGhost</title>
+<meta name="keywords" content="DeathGhost,DeathGhost.cn,web前端设,移动WebApp开发" />
+<meta name="description" content="DeathGhost.cn::H5 WEB前端设计开发!" />
+<meta name="author" content="DeathGhost"/>
+
+
+</head>
+<body>
+<header>
+  <include file='./Application/Home/View/public/head.html'/>
+ <nav class="menu_bg">
+  <ul class="menu">
+   <li><a href="index.html">首页</a></li>
+   <li><a href="list.html">订餐</a></li>
+   <li><a href="category.html">积分商城</a></li>
+   <li><a href="article_read.html">关于我们</a></li>
+  </ul>
+ </nav>
+</header>
+
+<section class="Psection MT20" id="Cflow">
+
+<!--配送方式及支付，则显示如下-->
+<!--check order or add other information-->
+ <div class="pay_delivery">
+
+  <span class="flow_title">在线支付方式：</span>
+   <form action="#">
+    <ul>
+    <li><input type="radio" name="pay" id="alipay" value="alipay" /><label for="alipay"><i class="alipay"></i></label></li>
+    </ul>
+   </form>
+  </div>
+<form   method="post"action="{:U('Pay/pay','','')}" >
+  <div class="inforlist">
+   <span class="flow_title">商品清单</span>
+   
+    <table>
+    <th>名称</th>
+    <th>数量</th>
+    <th>价格</th>
+    <th>小计</th>
+    <volist name="shopdata" id="vo" key="k">
+    <tr>
+     <td>{$vo.sc_foodname}</td>
+    <input name="foodname{$k}" type='hidden' value='{$vo.sc_foodname}'/>
+    <input name="foodnameleng"  type='hidden' value="{$k}"/>
+     <td>{$vo.sc_count}</td>
+      <input name="count{$k}" type='hidden' value='{$vo.sc_count}'/>
+   
+     <td>{$vo.sc_price}</td>
+     <td id="z">{$vo.sc_total}</td>
+
+    </tr>
+    
+    </volist>
+   </table>
+       
+
+   
+   
+    <div class="Order_M">
+        
+       选择座位：     <select class="easyui-combobox"   editable="false" id="TypeName" name="department" panelheight="auto" style="width:160px;">
+            
+            <option  value = "sss"  selected = "selected" >随机</option >
+ </select>
+    
+    </div>
+    <div class="Sum_infor">
+
+
+<p class="p2">合计：￥<span><input type="text" name="tatol" id="tatol"></input></span></p>
+    <input type="submit" value="提交订单"  class="p3button"/>
+    </div>
+   </div>
+   </form>
+ </div>
+</section>
+<script>
+    $(function (){
+         jQuery.ajax({
+        url: "{:U('Home/system/getseatlist','','')}",//跳转到下一个页面
+        // 数据发送方式
+        type: "post",
+        // 接受数据格式
+        dataType: "json",
+       // 回调函数，接受服务器端返回给客户端的值，即result值
+        success: function (data) {
+                           console.log(data);
+            if (data.length > 0) {
+               for (i = 0; i < data.length; i++) {
+    
+                                jQuery("#TypeName").append('<option value=' + data[i].id + '>' + data[i].id + '号座位'+'</option>');
+                            }
+            }
+        },
+ 
+        error: function (data) {
+ 
+            alert("查询学校失败" + data);
+ 
+        }
+    })
+   
+        
+    });
+    
+    
+    var conts=0;
+      $(function(){
+                $("td[id=z]").each(function () {
+		
+			
+				conts += parseInt($(this).text());
+			
+                    
+	})
+                $("#tatol").val((conts).toFixed(2));
+                
+            })
+        
+
+
+
+
+</script>
+<!--<section class="Psection MT20 Textcenter" style="display:none;" id="Aflow">
+   订单提交成功后则显示如下 
+  <p class="Font14 Lineheight35 FontW">恭喜你！订单提交成功！</p>
+  <p class="Font14 Lineheight35 FontW">您的订单编号为：<span class="CorRed">201409205134</span></p>
+  <p class="Font14 Lineheight35 FontW">共计金额：<span class="CorRed">￥359</span></p>
+  <p><button type="button" class="Lineheight35"><a href="#" target="_blank">支付宝立即支付</a></button><button type="button" class="Lineheight35"><a href="user_center.html">进入用户中心</button></p>
+</section>-->
+ <include file='./Application/Home/View/public/foot.html'/>
+</body>
+</html>

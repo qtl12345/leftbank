@@ -1,0 +1,218 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>酸辣土豆丝 - DeathGhost</title>
+        <meta name="keywords" content="DeathGhost,DeathGhost.cn,web前端设,移动WebApp开发" />
+        <meta name="description" content="DeathGhost.cn::H5 WEB前端设计开发!" />
+        <meta name="author" content="DeathGhost"/>
+
+
+        <script>
+//            $(function () {
+//                $('.title-list li').click(function () {
+//                    var liindex = $('.title-list li').index(this);
+//                    $(this).addClass('on').siblings().removeClass('on');
+//                    $('.menutab-wrap div.menutab').eq(liindex).fadeIn(150).siblings('div.menutab').hide();
+//                    var liWidth = $('.title-list li').width();
+//                    $('.shopcontent .title-list p').stop(false, true).animate({'left': liindex * liWidth + 'px'}, 300);
+//                });
+//
+//                $('.menutab-wrap .menutab li').hover(function () {
+//                    $(this).css("border-color", "#ff6600");
+//                    $(this).find('p > a').css('color', '#ff6600');
+//                }, function () {
+//                    $(this).css("border-color", "#fafafa");
+//                    $(this).find('p > a').css('color', '#666666');
+//                });
+//            });
+
+        </script>
+    </head>
+    <body>
+        <header>
+            
+<link href="/zuoan/Public/style/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/zuoan/Public/js/public.js"></script>
+<script type="text/javascript" src="/zuoan/Public/js/jquery.js"></script>
+<script type="text/javascript" src="/zuoan/Public/js/jqpublic.js"></script>
+
+<section class="Topmenubg">
+  <div class="Topnav">
+   <div class="LeftNav">
+       <?php if(($rule == 0) ): ?><a href="/zuoan/index.php/Home/Login/register">注册</a>/<a href="/zuoan/index.php/Home/Login/index">登录</a> 
+           <?php else: ?> <?php echo (session('username')); endif; ?>
+      <a href="#">QQ客服</a><a href="#">微信客服</a><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=302795298&site=qq&menu=yes"><img magin-top="10px" border="0" src="http://wpa.qq.com/pa?p=2:302795298:51" alt="联系商家" title="联系商家"/></a>
+   </div>
+   <div class="RightNav">
+    <a href="/zuoan/index.php/Home/system/index.html">用户中心</a> <a href="/zuoan/index.php/Home/System/user_orderlist" target="_blank" title="我的订单">我的订单</a> <a href="/zuoan/index.php/Home/System/cart">购物车（0）</a> <a href="user_favorites.html" target="_blank" title="我的收藏">我的收藏</a> 
+   </div>
+  </div>
+ </section>
+ <div class="Logo_search">
+  <div class="Logo">
+   <img src="/zuoan/Public/images/logo.jpg" title="DeathGhost" alt="模板">
+   <i></i>
+  
+  </div>
+     <div class="Search"> 
+   <form method="get" id="main_a_serach" onsubmit="return check_search(this)">
+   <div class="Search_nav" id="selectsearch">
+    
+    <a href="javascript:;" onClick="selectsearch(this,'food_name')">食物名</a>
+   </div>
+   <div class="Search_area"> 
+   <input type="search" id="fkeyword" name="keyword" placeholder="请输入您所需查找的餐食物名称..." class="searchbox" />
+   <input type="submit" class="searchbutton" value="搜 索" />
+   </div>
+   </form>
+   <p class="hotkeywords"><a href="#" title="酸辣土豆丝">酸辣土豆丝</a><a href="#" title="这里是产品名称">螃蟹炒年糕</a><a href="#" title="这里是产品名称">牛奶炖蛋</a><a href="#" title="这里是产品名称">芝麻酱凉面</a><a href="#" title="这里是产品名称">滑蛋虾仁</a><a href="#" title="这里是产品名称">蒜汁茄子</a></p>
+  </div>
+ </div>
+
+            <nav class="menu_bg">
+                <ul class="menu">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="list.html">订餐</a></li>
+                    <li><a href="category.html">积分商城</a></li>
+                    <li><a href="article_read.html">关于我们</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Start content-->
+        <section class="slp">
+            <section class="food-hd">
+                <div class="foodpic">
+                    <img src="" id="showimg">
+                   
+                </div>
+                <div class="foodtext">
+                    <div class="foodname_a">
+                        <h1 id="foodname"></h1>
+                        <!--<p>西安市丈八路220号</p>-->
+                    </div>
+                    <div class="price_a">
+                        <p class="price01">价格：￥<span id="prices"></span></p>
+                    </div>
+                    <!--                    <ul class="Tran_infor">
+                                            <li>
+                                                <p class="Numerical">3</p>
+                                                <p>月销量</p>
+                                            </li>
+                                            <li class="line">
+                                                <p class="Numerical">58</p>
+                                                <p>累计评价</p>
+                                            </li>
+                                            <li>
+                                                <p class="Numerical">59</p>
+                                                <p>送幸福积分</p>
+                                            </li>
+                                        </ul>-->
+                    <form action="" id="formshopping">
+                        <div class="BuyNo">
+                            <span>我要买：<input type="number" name="number" required autofocus min="1" value="1"/>份</span>
+                            <div class="Buybutton">
+                                <input type="button" value="加入购物车" class="BuyB" onclick="shopdata()">
+                                <a href="shop.html"><span class="Backhome">进入店铺首页</span></a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+        </section>
+        <!--End content-->
+        <div class="F-link">
+            <span>友情链接：</span>
+            <a href="http://www.deathghost.cn" target="_blank" title="DeathGhost">DeathGhost</a>
+            <a href="http://www.17sucai.com/pins/15966.html" target="_blank" title="免费后台管理模板">绿色清爽版通用型后台管理模板免费下载</a>
+            <a href="http://www.17sucai.com/pins/17567.html" target="_blank" title="果蔬菜类模板源码">HTML5果蔬菜类模板源码</a>
+            <a href="http://www.17sucai.com/pins/14931.html" target="_blank" title="黑色的cms商城网站后台管理模板">黑色的cms商城网站后台管理模板</a>
+        </div>
+        <script>
+            function getParams(key) {
+                var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+                //如果地址栏中出现中文则进行编码    
+                var r = encodeURI(window.location.search).substr(1).match(reg);
+                if (r != null) {
+                    //将中文编码的字符重新变成中文
+                    return decodeURI(unescape(r[2]));
+                }
+                return null;
+            }
+            $.ajax({
+                url: "<?php echo U('Index/pagedata','','');?>",
+                data: {"id": getParams("foodname")},
+                type: "post",
+                dataType: "json",
+                success: function (data) {
+                    $("#foodname").text(data['f_name']);
+                    $("#prices").text(data['f_price']);
+                    $("#showimg").attr("src", "/zuoan/Public/images/"+ data['f_picture']);
+                }
+            });
+            function shopdata() {
+                number= $('input[name="number"]').val();
+                foodname= $('#foodname').text();
+                $.ajax({
+                    url: "<?php echo U('Index/shopc','','');?>",
+                    data: {"foodname": foodname,"number":number,"id": getParams("foodname")},
+                    type: "post",
+                    dataType: "json",
+                    success: function (data) {
+                        if(data='ok'){
+                            window.location.href="<?php echo U('System/cart','','');?>";
+                        }
+                    }
+                });
+            }
+        </script>
+    <footer>
+ <section class="Otherlink">
+  <aside>
+   <div class="ewm-left">
+    <p>手机扫描二维码：</p>
+    <img src="/zuoan/Public/images/Android_ico_d.gif">
+    <img src="/zuoan/Public/images/iphone_ico_d.gif">
+   </div>
+   <div class="tips">
+    <p>客服热线</p>
+    <p><i>1830927**73</i></p>
+    <p>配送时间</p>
+    <p><time>09：00</time>~<time>22:00</time></p>
+    <p>网站公告</p>
+   </div>
+  </aside>
+  <section>
+    <div>
+    <span><i class="i1"></i>配送支付</span>
+    <ul>
+     <li><a href="article_read.html" target="_blank" title="标题">支付方式</a></li>
+     <li><a href="article_read.html" target="_blank" title="标题">配送方式</a></li>
+     <li><a href="article_read.html" target="_blank" title="标题">配送效率</a></li>
+     <li><a href="article_read.html" target="_blank" title="标题">服务费用</a></li>
+    </ul>
+    </div>
+    <div>
+    <span><i class="i2"></i>关于我们</span>
+    <ul>
+     <li><a href="article_read.html" target="_blank" title="标题">招贤纳士</a></li>
+     <li><a href="article_read.html" target="_blank" title="标题">网站介绍</a></li>
+     <li><a href="article_read.html" target="_blank" title="标题">配送效率</a></li>
+     <li><a href="article_read.html" target="_blank" title="标题">商家加盟</a></li>
+    </ul>
+    </div>
+    <div>
+    <span><i class="i3"></i>帮助中心</span>
+    <ul>
+     <li><a href="article_read.html" target="_blank" title="标题">服务内容</a></li>
+     <li><a href="article_read.html" target="_blank" title="标题">服务介绍</a></li>
+     <li><a href="article_read.html" target="_blank" title="标题">常见问题</a></li>
+     <li><a href="article_read.html" target="_blank" title="标题">网站地图</a></li>
+    </ul>
+    </div>
+  </section>
+ </section>
+<div class="copyright">© 版权所有 2016 DeathGhost 技术支持：<a href="http://www.deathghost.cn" title="DeathGhost">DeathGhost</a></div>
+</footer>
+</body>
+</html>

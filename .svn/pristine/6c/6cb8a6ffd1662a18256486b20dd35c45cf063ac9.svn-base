@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>DeathGhost-我的购物车</title>
+        <meta name="keywords" content="DeathGhost,DeathGhost.cn,web前端设,移动WebApp开发" />
+        <meta name="description" content="DeathGhost.cn::H5 WEB前端设计开发!" />
+        <meta name="author" content="DeathGhost"/>
+        <link href="__PUBLIC__//style/style.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="__PUBLIC__/js/public.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/jqpublic.js"></script>
+        <script type="text/javascript" src="__PUBLIC__/js/cart.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <include file='./Application/Home/View/public/head.html'/>
+            <nav class="menu_bg">
+                <ul class="menu">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="list.html">订餐</a></li>
+                    <li><a href="category.html">积分商城</a></li>
+                    <li><a href="article_read.html">关于我们</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--Start content-->
+        <form action="__MODULE__/system/confirm_order" method="post">
+            <div class="gwc" style=" margin:auto;">
+                <table cellpadding="0" cellspacing="0" class="gwc_tb1">
+                    <tr>
+                        <td class="tb1_td1"><input id="Checkbox1" type="checkbox"  class="allselect"/></td>
+                        <td class="tb1_td1">全选</td>
+                        <td class="tb1_td3">商品</td>
+                        <td class="tb1_td4">单价</td>
+                        <td class="tb1_td5">数量</td>  
+                        <td class="tb1_td6">合计</td>
+                        <td class="tb1_td7">操作</td>
+                    </tr>
+                </table>
+                <volist name="shopdata" id="vo" key="k">
+                    
+                     <table cellpadding="0" cellspacing="0" class="gwc_tb2" id="table{$k}">
+                        <tr>
+                            <td class="tb2_td1"><input type="checkbox" value="1" name="newslist" id="newslist-{$k}" /></td>
+                            <td class="tb2_td2"><a href="detailsp.html" target="_blank"><img src="__PUBLIC__/images/{$vo.sc_picture}"/></a></td>
+                            <td class="tb2_td3"><a href="detailsp.html" target="_blank">{$vo.sc_foodname}</a></td>\
+                         <input name="foodname{$k}" type='hidden' value='{$vo.sc_foodname}'/>
+                          <input name="foodnameleng"  type='hidden' value="{$k}"/>
+                            <td class="tb1_td4"><label class="tot"id="vt{$k}"  style="color:#ff5500;font-size:14px; font-weight:bold;">{$vo.sc_price}</label></td>
+                            <td class="tb1_td5"><input id="min{$k}" name=""  style="width:30px; height:30px;border:1px solid #ccc;" type="button" value="-" />
+                                <input id="text_box{$k}" name="" type="text" value="{$vo.sc_count}" style=" width:40px;height:28px; text-align:center; border:1px solid #ccc;" />
+                                <input id="add{$k}" name="" style="width:30px; height:30px;border:1px solid #ccc;" type="button" value="+" />
+                            </td>
+                            <td class="tb1_td6"><label id="total{$k}" class="tot" style="color:#ff5500;font-size:14px; font-weight:bold;"></label></td>
+                            <td class="tb1_td7"><a href="#" id="delcart1" name="" onclick="cdelete('{$vo.sc_foodname}');">删除</a></td>
+                        </tr>
+                    </table>
+        </volist>
+
+
+
+
+
+                <table cellpadding="0" cellspacing="0" class="gwc_tb3">
+                    <tr>
+                        <td class="tb1_td1"><input id="checkAll" class="allselect" type="checkbox" /></td>
+                        <td class="tb1_td1">全选</td>
+                        <td class="tb3_td1"><input id="invert" type="checkbox" />
+                            反选
+                            <input id="cancel" type="checkbox" />
+                            取消 </td>
+                        <td class="tb3_td2 GoBack_Buy Font14"><a href="__MODULE__/index/index" target="_blank">继续购物</a></td>
+                        <td class="tb3_td2">已选商品
+                            <label id="shuliang" style="color:#ff5500;font-size:14px; font-weight:bold;">0</label>
+                            件</td>
+                        <td class="tb3_td3">合计(不含运费):<span>￥</span><span style=" color:#ff5500;">
+                                <label id="zong1" style="color:#ff5500;font-size:14px; font-weight:bold;">0.00</label>
+                            </span></td>
+                            <td class="tb3_td4"><span id="jz1">结算</span><input type="submit" style=" display:none;"  class="jz2" id="jz2" value="结算"></input></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+        <script>
+          
+            function cdelete(data) {
+                name = $("#"+data+"").text();
+                $.ajax({
+                    url: "{:U('System/cdelete','','')}",
+                    data: {"name": data},
+                    type: "post",
+                    dataType: "json",
+                    success: function (data) {
+                        if (data == 1) {
+                            alert("删除成功");
+                            location.reload();
+                        }
+                    }
+                });
+            }
+        </script>
+    <include file='./Application/Home/View/public/foot.html'/>
+</body>
+</html>
